@@ -1,0 +1,28 @@
+{
+  "name": "woutersf-marketplace",
+  "description": "A collection of Claude Code plugins by Frederik Wouters.",
+  "owner": {
+    "name": "Frederik Wouters",
+    "email": "frederik.wouters@dropsolid.com"
+  },
+  "plugins": [
+    {
+      "name": "no-emdashes",
+      "displayName": "No Em Dashes",
+      "description": "Strictly prevents em dashes and all dash variants in every Claude response. Injects a no-dash rule into every conversation and automatically catches and corrects any em dash that slips through.",
+      "source": {
+        "source": "github",
+        "repo": "woutersf/claude-skill-no-emdashes"
+      },
+      "author": {
+        "name": "Frederik Wouters",
+        "email": "frederik.wouters@dropsolid.com"
+      },
+      "homepage": "https://github.com/woutersf/claude-skill-no-emdashes",
+      "repository": "https://github.com/woutersf/claude-skill-no-emdashes",
+      "license": "MIT",
+      "category": "writing",
+      "tags": ["writing", "style", "hooks", "em-dash"]
+    }
+  ]
+}
