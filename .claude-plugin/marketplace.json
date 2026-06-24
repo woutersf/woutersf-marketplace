@@ -7,6 +7,24 @@
   },
   "plugins": [
     {
+      "name": "mockup",
+      "displayName": "Mockup Generator",
+      "description": "Fast-track mockup generator for Dropsolid client prototypes. Supports four types: multi-mockup overview pages, single-page mockups, AI search integrations, and AI inspiration pitch decks. Extracts brand assets from a client site and builds Tailwind CSS prototypes with zero external dependencies.",
+      "source": {
+        "source": "github",
+        "repo": "woutersf/claude-skill-mockup-project"
+      },
+      "author": {
+        "name": "Frederik Wouters",
+        "email": "frederik.wouters@dropsolid.com"
+      },
+      "homepage": "https://github.com/woutersf/claude-skill-mockup-project",
+      "repository": "https://github.com/woutersf/claude-skill-mockup-project",
+      "license": "MIT",
+      "category": "design",
+      "tags": ["mockup", "prototype", "demo", "tailwind", "design", "dropsolid"]
+    },
+    {
       "name": "no-emdashes",
       "displayName": "No Em Dashes",
       "description": "Strictly prevents em dashes and all dash variants in every Claude response. Injects a no-dash rule into every conversation and automatically catches and corrects any em dash that slips through.",
